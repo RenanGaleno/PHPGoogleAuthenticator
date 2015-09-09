@@ -1,19 +1,14 @@
 Google Authenticator PHP class
 =====================
 
-* Copyright (c) 2012, [http://www.phpgangsta.de](http://www.phpgangsta.de)
-* Author: Michael Kliewe, [@PHPGangsta](http://twitter.com/PHPGangsta)
-* Licensed under the BSD License.
-
-[![Build Status](https://travis-ci.org/PHPGangsta/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/PHPGangsta/GoogleAuthenticator)
+[![Build Status](https://api.travis-ci.org/RenanGaleno/PHPGoogleAuthenticator.svg)](https://travis-ci.org/RenanGaleno/PHPGoogleAuthenticator)
 
 This PHP class can be used to interact with the Google Authenticator mobile app for 2-factor-authentication. This class
 can generate secrets, generate codes, validate codes and present a QR-Code for scanning the secret.
 
 For a secure installation you have to make sure that used codes cannot be reused (replay-attack).
 
-Usage:
-------
+## Usage:
 
 See example files
 
@@ -26,10 +21,12 @@ See example files
     OK
 
 
-ToDo:
------
-- ??? What do you need?
+## Author
+**Renan Galeno**
+* https://renan.eng.br/
+**Michael Kliewe**
+* http://www.phpgangsta.de
+* http://twitter.com/PHPGangsta
 
-Notes:
-------
-If you like this script or have some features to add: contact me, visit my blog, fork this project, send pull requests, you know how it works.
+## License
+Licensed under the BSD License.

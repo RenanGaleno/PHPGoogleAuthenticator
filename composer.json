@@ -1,16 +1,25 @@
 {
-    "name": "phpgangsta/googleauthenticator",
-    "description": "Google Authenticator 2-factor authentication",
+    "name": "renangaleno/phpgoogleauthenticator",
+    "version": "0.1",
+    "description": "Google Authenticator 2-factor authentication PHP class",
     "type": "library",
-    "keywords": ["GoogleAuthenticator"],
+    "keywords": ["PHP","Google","Auth","Authenticator"],
     "license": "BSD-4-Clause",
     "authors": [
+        {
+          "name": "Renan Galeno",
+          "email": "g@renan.eng.br",
+          "homepage": "http://renan.eng.br/"
+        },
         {
             "name": "Michael Kliewe"
         }
     ],
+    "require": {
+        "php": ">=5.3.0"
+    },
 	"autoload": {
-		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
+		"classmap": ["src/GoogleAuthenticator.php"]
 	}
 }
 

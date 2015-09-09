@@ -2,14 +2,9 @@
 
 /**
  * PHP Class for handling Google Authenticator 2-factor authentication
- *
- * @author Michael Kliewe
- * @copyright 2012 Michael Kliewe
- * @license http://www.opensource.org/licenses/bsd-license.php BSD License
- * @link http://www.phpgangsta.de/
  */
 
-class PHPGangsta_GoogleAuthenticator
+class PHP_GoogleAuthenticator
 {
     protected $_codeLength = 6;
 
@@ -111,7 +106,7 @@ class PHPGangsta_GoogleAuthenticator
      * Set the code length, should be >=6
      *
      * @param int $length
-     * @return PHPGangsta_GoogleAuthenticator
+     * @return PHP_GoogleAuthenticator
      */
     public function setCodeLength($length)
     {
