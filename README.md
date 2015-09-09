@@ -1,7 +1,7 @@
 Google Authenticator PHP class
 =====================
 
-[![Build Status](https://api.travis-ci.org/RenanGaleno/PHPGoogleAuthenticator.svg)](https://travis-ci.org/RenanGaleno/PHPGoogleAuthenticator)
+[![Build Status](https://travis-ci.org/RenanGaleno/PHPGoogleAuthenticator.svg?branch=master)](https://travis-ci.org/RenanGaleno/PHPGoogleAuthenticator)
 
 This PHP class can be used to interact with the Google Authenticator mobile app for 2-factor-authentication. This class
 can generate secrets, generate codes, validate codes and present a QR-Code for scanning the secret.
@@ -24,6 +24,7 @@ See example files
 ## Author
 **Renan Galeno**
 * https://renan.eng.br/
+
 **Michael Kliewe**
 * http://www.phpgangsta.de
 * http://twitter.com/PHPGangsta
