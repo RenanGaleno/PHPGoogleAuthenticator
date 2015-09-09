@@ -1,8 +1,8 @@
 <?php
 
-require_once '../PHPGangsta/GoogleAuthenticator.php';
+require_once '../src/PHPGoogleAuthenticator.php';
 
-$ga = new PHPGangsta_GoogleAuthenticator();
+$ga = new PHPGoogleAuthenticator();
 
 $secret = $ga->createSecret();
 echo "Secret is: ".$secret."\n\n";

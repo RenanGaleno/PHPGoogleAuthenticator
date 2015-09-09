@@ -1,3 +1,3 @@
 <?php
 
-require_once 'src/GoogleAuthenticator.php';
+require_once 'src/PHPGoogleAuthenticator.php';

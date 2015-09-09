@@ -1,7 +1,7 @@
 {
     "name": "renangaleno/phpgoogleauthenticator",
     "version": "0.1",
-    "description": "Google Authenticator 2-factor authentication PHP class",
+    "description": "PHP Class for handling Google Authenticator 2-factor authentication",
     "type": "library",
     "keywords": ["PHP","Google","Auth","Authenticator"],
     "license": "BSD-4-Clause",
@@ -19,7 +19,7 @@
         "php": ">=5.3.0"
     },
 	"autoload": {
-		"classmap": ["src/GoogleAuthenticator.php"]
+		"classmap": ["src/PHPGoogleAuthenticator.php"]
 	}
 }
 
